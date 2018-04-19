@@ -1,0 +1,35 @@
+Frame 1: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: 00:0a:f7:0f:67:02, Dst: 00:0a:f7:0f:68:b2
+Internet Protocol Version 4, Src: 192.168.31.15, Dst: 192.168.31.16
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 92
+    Identification: 0x01a0 (416)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: ICMP (1)
+    Header checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.31.15
+    Destination: 192.168.31.16
+Internet Control Message Protocol
+
+Frame 2: 106 bytes on wire (848 bits), 106 bytes captured (848 bits)
+Ethernet II, Src: 00:0a:f7:0f:68:b2, Dst: 00:0a:f7:0f:67:02
+Internet Protocol Version 4, Src: 192.168.31.16, Dst: 192.168.31.15
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 92
+    Identification: 0x00e8 (232)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: ICMP (1)
+    Header checksum: 0x7a49 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 192.168.31.16
+    Destination: 192.168.31.15
+Internet Control Message Protocol

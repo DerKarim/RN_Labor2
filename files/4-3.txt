@@ -1,0 +1,14 @@
+Frame 32: 216 bytes on wire (1728 bits), 216 bytes captured (1728 bits) on interface 0
+Ethernet II, Src: 90:1b:0e:a6:1c:dd, Dst: 01:00:5e:7f:ff:fa
+    Destination: 01:00:5e:7f:ff:fa
+        Address: 01:00:5e:7f:ff:fa
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: 90:1b:0e:a6:1c:dd
+        Address: 90:1b:0e:a6:1c:dd
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4
+User Datagram Protocol
+Simple Service Discovery Protocol
